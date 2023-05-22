@@ -1,13 +1,16 @@
 import React from 'react'
 
-import Products from './components/Products/Products'
-const app= () => {
+
+import{ Navbar, Products } from './components'
+
+const App= () => {
   return (
     <div>
-       <Products />
+      <Navbar />
+      <Products />
     </div>
   )
 }
 
-export default app;
+export default App;
 
